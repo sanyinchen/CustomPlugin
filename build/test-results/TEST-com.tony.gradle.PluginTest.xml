@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.tony.gradle.PluginTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-02-29T17:27:53" hostname="sanyincendembp2" time="1.555">
+  <properties/>
+  <testcase name="addTaskToProject" classname="com.tony.gradle.PluginTest" time="1.555"/>
+  <system-out><![CDATA[hello------------------demoTest
+]]></system-out>
+  <system-err><![CDATA[2016-3-1 1:27:53 org.codehaus.groovy.runtime.m12n.MetaInfExtensionModule newModule
+警告: Module [groovy-all] - Unable to load extension class [org.codehaus.groovy.runtime.NioGroovyMethods]
+]]></system-err>
+</testsuite>

@@ -1,0 +1,22 @@
+buildscript {
+    repositories {
+        maven {
+            url uri('../repo')
+        }
+    }
+
+    dependencies {
+        classpath group: 'com.tony',
+                name: 'mytestplugin',
+                version: '0.1'
+        // classpath 'com.tony:CustomPlugin:0.1'
+    }
+}
+apply plugin: 'com.tony.testplugin'
+people{
+    name="Tony"
+    age="25"
+    assest{
+        assests="a car and a house";
+    }
+}

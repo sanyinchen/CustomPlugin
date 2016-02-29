@@ -1,0 +1,21 @@
+
+apply plugin: 'maven'
+apply plugin: 'groovy'
+
+dependencies {
+    compile gradleApi()
+    compile localGroovy()
+}
+repositories {
+    mavenCentral()
+}
+group='com.tony'   //Group name makes easier to manager the packages.
+version='0.1'
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository(url: uri('./repo'))
+        }
+    }
+}
